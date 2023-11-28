@@ -54,11 +54,13 @@ text-decoration: none;
  height: 510px;
 }
 .hero-heading{
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.5px;
 }
 .hero-text{
+    font-family: "Roboto";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -66,6 +68,7 @@ text-decoration: none;
     letter-spacing: 0.5px;
 }
 .about-akadem{
+    font-family: 'Roboto Condensed', sans-serif;
     width: 440px;
     color: #000;
     font-size: 72px;
@@ -86,6 +89,7 @@ line-height: 120%; /* 28.8px */
 letter-spacing: 0.5px;
 }
 .service-undertext {
+    font-family: "Roboto";
     color: #000;
     font-size: 16px;
     font-weight: 400;
@@ -104,6 +108,7 @@ letter-spacing: 0.5px;
     width: 440px;
 }
 .welcome-heading{
+    font-family: Roboto Condensed;
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
@@ -111,6 +116,7 @@ letter-spacing: 0.5px;
     letter-spacing: 0.5px;
 }
 .welcome-text{
+    font-family: "Roboto";
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -148,6 +154,7 @@ width: 1100px;
     width: 224px;
 }
 .footer-list a{
+    font-family: "Roboto";
 width: 224px;
 color: #252420;
 font-size: 16px;
