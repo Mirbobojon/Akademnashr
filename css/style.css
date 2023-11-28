@@ -3,13 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 } */
-
+*:focus{
+    outline: 2px solid #FF7500;
+    outline-offset: 2px;
+}
 
 .navbar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
+    border-top: 5px solid #FF7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
 }
 .logoss{
     display: flex;
@@ -27,6 +34,7 @@
     list-style-type: none;
 }
 .sitenav-link {
+    padding: 0;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
@@ -45,6 +53,8 @@
     list-style-type: none;
 }
 .main-link {
+display: inline-block;
+padding: 12px 24px;
 color: #FFF;
 font-size: 13px;
 font-style: normal;
@@ -65,6 +75,9 @@ transition: opacity 0.3s ease;
     justify-content: space-between;
     background: #252420;
     color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding: 40px 100px;
 }
 
 .hero-content{
@@ -78,6 +91,7 @@ transition: opacity 0.3s ease;
 .hero-img {
  width: 510px;
  height: 510px;
+ border-radius: 12px;
 }
 .hero-heading{
     font-family: 'Roboto Condensed', sans-serif;
@@ -93,7 +107,12 @@ transition: opacity 0.3s ease;
     line-height: 150%; /* 24px */
     letter-spacing: 0.5px;
 }
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
 .feature-flex{
+    padding: 0;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -108,9 +127,13 @@ transition: opacity 0.3s ease;
     letter-spacing: 0.5px;
 }
 .fature-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
 }
 .service-text{
 color: #000;
@@ -132,8 +155,11 @@ letter-spacing: 0.5px;
 }
 
 .welcome-pages{
+    border-radius: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+     padding: 40px 100px;
     background: #252420;
     color: #FFFFFF;
 }
@@ -170,6 +196,8 @@ letter-spacing: 0.5px;
     object-fit: cover;
 }
 .site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #F8F8F8;
 }
 .footer-icons{
@@ -181,6 +209,7 @@ letter-spacing: 0.5px;
 .social{
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 .footer-line{
     width: 100%;
@@ -198,6 +227,7 @@ list-style-type: none;
 
 .footer-list{
     width: 224px;
+    padding: 0;
 }
 .footer-list a{
 font-family: "Roboto";
